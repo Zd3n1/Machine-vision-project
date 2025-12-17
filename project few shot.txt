@@ -1,0 +1,31 @@
+
+
+There is our proposed project and we would like to know if doing something like this will be possible as final project for this class.
+
+Few shot learning above HAM10000 dataset
+
+its the dataset of various different (5) skin cancers with lots of healthy skin as well, so for project we would like to do:
+
+- cherry pick smaller image set consisting of images with better quality and contrasts (the whole dataset has 10k images)
+- preprocesting the images to get rid of excess healthy skin around as it can lower the success rate
+- finding out if rotating images have any impact on the results
+
+
+
+Confution matrix:
+
+Critical -> False negative
+small -> False possitive
+
+
+dataset:
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?resource=download
+
+
+stuff from teacher: 
+
+
+fuzzy logic
+overlay
+
+extract based on metadata -> statistical model
