@@ -1,0 +1,20 @@
+Overall train images: 35
+Overall test images: 333
+Overall accuracy: 0.2072
+Overall AUC malignant vs benign: 0.6449
+Per-localization metrics:
+  abdomen: train=27, test=7, accuracy=0.7143, auc=0.8333
+  acral: train=4, test=1, accuracy=1.0000, auc=n/a
+  back: train=25, test=7, accuracy=0.5714, auc=0.7500
+  chest: train=24, test=6, accuracy=0.5000, auc=0.8889
+  ear: train=14, test=4, accuracy=0.5000, auc=0.7500
+  face: train=24, test=6, accuracy=0.3333, auc=0.6667
+  foot: train=13, test=4, accuracy=0.7500, auc=1.0000
+  genital: train=6, test=2, accuracy=1.0000, auc=n/a
+  hand: train=18, test=5, accuracy=0.6000, auc=0.9167
+  lower extremity: train=28, test=7, accuracy=0.2857, auc=0.6250
+  neck: train=22, test=6, accuracy=0.5000, auc=0.6111
+  scalp: train=21, test=6, accuracy=0.1667, auc=0.6667
+  trunk: train=21, test=5, accuracy=0.6000, auc=0.8333
+  unknown: train=16, test=4, accuracy=0.2500, auc=1.0000
+  upper extremity: train=28, test=7, accuracy=0.1429, auc=0.9583

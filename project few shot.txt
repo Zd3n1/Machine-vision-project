@@ -1,3 +1,4 @@
+Hello Profesor ...
 
 
 There is our proposed project and we would like to know if doing something like this will be possible as final project for this class.
@@ -18,9 +19,6 @@ Critical -> False negative
 small -> False possitive
 
 
-dataset:
-https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000?resource=download
-
 
 stuff from teacher: 
 
@@ -29,3 +27,26 @@ fuzzy logic
 overlay
 
 extract based on metadata -> statistical model
+
+
+
+
+20.1.2026
+
+
+- compare accuracy and AUC for every body part 
+- find paper with similar setup to ours and compare results 
+- resnet18
+
+- prepare for labwork "test"
+
+
+
+
+    hand: accuracy=0.6000, auc=0.9167
+    upper extremity: accuracy=0.1429, auc=0.9583            -> good AUC, but terrible at guessing the type of cancers
+    abdomen: train=27, test=7, accuracy=0.7143, auc=0.8333
+
+    Any AUC computed with <20 samples is unstable.
+
+    maybe per sex accuracy as well

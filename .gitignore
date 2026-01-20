@@ -1,0 +1,6 @@
+.idea
+__pycache__
+skin-cancer-mnist-ham10000/HAM10000_images_part_1
+skin-cancer-mnist-ham10000/HAM10000_images_part_2
+skin-cancer-mnist-ham10000/.DS_Store
+.DS_Store
