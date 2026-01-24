@@ -93,9 +93,9 @@ def main() -> None:
   selected_test_csv = dataset_dir / "SELECTED_test.csv"
   selected_metrics_txt = dataset_dir / "SELECTED_metrics.txt"
   selected_results_txt = dataset_dir / "SELECTED_results.txt"
-  few_shot_used_csv = dataset_dir / "few_shot_used.csv"
-  few_shot_used_localisation_csv = dataset_dir / "few_shot_used_localisation.csv"
-  few_shot_predictions_csv = dataset_dir / "few_shot_predictions.csv"
+  #few_shot_used_csv = dataset_dir / "few_shot_used.csv"
+  #few_shot_used_localisation_csv = dataset_dir / "few_shot_used_localisation.csv"
+  #few_shot_predictions_csv = dataset_dir / "few_shot_predictions.csv"
 
   if not metadata_csv.exists():
     raise FileNotFoundError(
