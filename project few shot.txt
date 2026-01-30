@@ -50,3 +50,8 @@ extract based on metadata -> statistical model
     Any AUC computed with <20 samples is unstable.
 
     maybe per sex accuracy as well
+
+
+
+
+github link: https://github.com/Zd3n1/Machine-vision-project
